@@ -246,7 +246,7 @@ header {
     transition: background-color 0.3s;
     position: absolute; /* Rend le bouton positionné par rapport au parent */
     bottom: -60px; /* Aligne le bouton en bas */
-    right: 370px; /* Aligne le bouton à droite */
+    right: 290px; /* Aligne le bouton à droite */
     transform: translateX(50%); /* Centre le bouton horizontalement */
 }
 
