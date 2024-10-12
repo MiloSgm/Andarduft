@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="images/Andarduft-Beauty.png" alt="Logo du site" class="logo">
+            </a>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="our-product.html">Our Product</a></li>
+                <li><a href="face.html">FACE</a></li>
+                <li><a href="body.html">BODY</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+            </ul>
+        </nav>
+        <div class="account-links">
+            <a href="login.html" class="btn">Login</a>
+            <a href="signup.html" class="btn">Sign Up</a>
+        </div>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Andarduft Beauty</h1>
+                <p>Discover the best products for your face and body.</p>                
+            </div>
+        </section>
+        
+        <section class="signup">
+            <h1>Sign Up</h1>
+            <form id="signupForm" action="your-action-url-here" method="POST">
+                <div class="form-group">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupPassword">Password:</label>
+                    <input type="password" id="signupPassword" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="phoneNumber">Phone Number:</label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber" required>
+                </div>
+                <button type="submit">Sign Up</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Andarduft Beauty School Project</p>
+    </footer>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
