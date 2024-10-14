@@ -474,3 +474,131 @@ footer {
     padding: 1rem 0;
     margin-top: 3rem;
 }
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    .team-member {
+        width: 30%; /* Augmentez la largeur des membres de l'équipe pour les écrans plus petits */
+    }
+
+    .product-card {
+        margin-bottom: 20px; /* Ajoute un espacement en bas des cartes produits */
+    }
+}
+
+@media (max-width: 992px) {
+    .team-member {
+        width: 45%; /* Réduit la largeur des membres de l'équipe sur les écrans moyens */
+    }
+
+    .signup,
+    .login {
+        max-width: 90%; /* Largeur maximale pour les formulaires sur les petits écrans */
+    }
+
+    .hero h1 {
+        font-size: 2.5em; /* Réduit la taille du texte dans la section héros */
+    }
+
+    .hero p {
+        font-size: 1.2em; /* Réduit la taille du texte dans la section héros */
+    }
+
+    .cta-button {
+        bottom: -50px; /* Ajuste la position du bouton */
+        right: 50%; /* Centre le bouton horizontalement */
+        transform: translateX(50%); /* Centre le bouton horizontalement */
+    }
+}
+
+@media (max-width: 768px) {
+    .team-member {
+        width: 100%; /* Chaque membre de l'équipe prend 100% de la largeur */
+    }
+
+    .navbar ul {
+        flex-direction: column; /* Change la direction de la navigation en colonne */
+        align-items: center; /* Centre les éléments de la barre de navigation */
+    }
+
+    .navbar ul li {
+        margin: 10px 0; /* Espace vertical entre les liens de navigation */
+    }
+
+    .hero h1 {
+        font-size: 2em; /* Réduit la taille du texte pour les petits écrans */
+    }
+
+    .hero p {
+        font-size: 1em; /* Réduit la taille du texte pour les petits écrans */
+    }
+
+    .cta-button {
+        bottom: -40px; /* Ajuste la position du bouton */
+    }
+}
+
+/* Nouvelles media queries pour iPhones et tablettes */
+@media (max-width: 640px) { /* Cible les iPhones en mode portrait */
+    .hero {
+        height: 350px; /* Ajuste la hauteur de la section héro */
+    }
+
+    .hero h1 {
+        font-size: 1.6em; /* Ajuste la taille du texte */
+    }
+
+    .hero p {
+        font-size: 0.85em; /* Ajuste la taille du texte */
+    }
+
+    .cta-button {
+        padding: 8px 14px; /* Ajuste le rembourrage */
+    }
+}
+
+@media (max-width: 768px) and (orientation: landscape) { /* Cible les tablettes en mode paysage */
+    .team-member {
+        width: 48%; /* Deux membres de l'équipe par ligne */
+    }
+
+    .navbar ul {
+        flex-direction: row; /* Garde la navigation en ligne */
+        justify-content: center; /* Centre la navigation */
+    }
+
+    .hero h1 {
+        font-size: 2.2em; /* Ajuste la taille du texte */
+    }
+
+    .hero p {
+        font-size: 1em; /* Ajuste la taille du texte */
+    }
+}
+
+@media (max-width: 576px) {
+    .signup,
+    .login {
+        padding: 15px; /* Réduit le rembourrage pour les petits écrans */
+    }
+
+    .hero {
+        height: 400px; /* Réduit la hauteur de la section héro sur les très petits écrans */
+    }
+
+    .hero h1 {
+        font-size: 1.8em; /* Réduit encore plus la taille du texte */
+    }
+
+    .hero p {
+        font-size: 0.9em; /* Réduit la taille du texte dans la section héro */
+    }
+
+    .cta-button {
+        padding: 8px 16px; /* Réduit le rembourrage du bouton */
+    }
+
+    .product-card {
+        margin-bottom: 15px; /* Ajoute un espacement en bas des cartes produits */
+    }
+}
