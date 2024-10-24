@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.andarduft.com/sitemap.xml
+Sitemap: https://andarduft-beauty.com/sitemap.xml
