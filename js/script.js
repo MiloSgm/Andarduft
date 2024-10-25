@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             if (username === storedUsername && password === storedPassword) {
                 alert("Login successful!");
-                window.location.href = "Andarduft.html"; // Redirect to home
+                window.location.href = "andarduft.html"; // Redirect to home
             } else {
                 alert("Invalid username or password");
             }
