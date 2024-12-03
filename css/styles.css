@@ -1,4 +1,5 @@
 /* Reset pour tous les navigateurs */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +13,8 @@ body {
     color: #333;
 }
 
-h1, h2 {
+h1,
+h2 {
     color: #29534e;
     text-align: center;
     margin-bottom: 20px;
@@ -25,7 +27,9 @@ p {
     margin: 0 10%;
 }
 
+
 /* Corps de la page */
+
 body {
     font-family: 'Arial', sans-serif;
     color: #333;
@@ -33,7 +37,9 @@ body {
     line-height: 1.6;
 }
 
+
 /* Header */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -51,7 +57,9 @@ header {
     height: 60px;
 }
 
+
 /* Navbar */
+
 .navbar ul {
     list-style: none;
     display: flex;
@@ -74,61 +82,90 @@ header {
     color: #276357;
 }
 
+
 /* Sign Up Section */
+
 .signup {
-    max-width: 400px; /* Maximum width of the sign-up form */
-    margin: 40px auto; /* Center the form with margin */
-    background-color: #ffffff; /* White background for the form */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Shadow effect for depth */
-    padding: 20px; /* Padding inside the form */
+    max-width: 400px;
+    /* Maximum width of the sign-up form */
+    margin: 40px auto;
+    /* Center the form with margin */
+    background-color: #ffffff;
+    /* White background for the form */
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    /* Shadow effect for depth */
+    padding: 20px;
+    /* Padding inside the form */
 }
 
 .signup h1 {
-    text-align: center; /* Center the heading */
-    color: #333; /* Dark gray color for text */
+    text-align: center;
+    /* Center the heading */
+    color: #333;
+    /* Dark gray color for text */
 }
 
 .form-group {
-    margin-bottom: 15px; /* Space below each form group */
+    margin-bottom: 15px;
+    /* Space below each form group */
 }
 
 .signup label {
-    display: block; /* Labels as block elements */
-    margin-bottom: 5px; /* Space between label and input */
-    font-weight: bold; /* Bold font for labels */
-    color: #333; /* Dark gray color for labels */
+    display: block;
+    /* Labels as block elements */
+    margin-bottom: 5px;
+    /* Space between label and input */
+    font-weight: bold;
+    /* Bold font for labels */
+    color: #333;
+    /* Dark gray color for labels */
 }
 
 .signup input[type="text"],
 .signup input[type="email"],
 .signup input[type="tel"],
 .signup input[type="password"] {
-    width: 100%; /* Full width inputs */
-    padding: 10px; /* Padding inside inputs */
-    border: 1px solid #ddd; /* Light gray border */
-    border-radius: 5px; /* Rounded corners for inputs */
-    box-sizing: border-box; /* Include padding in width calculation */
+    width: 100%;
+    /* Full width inputs */
+    padding: 10px;
+    /* Padding inside inputs */
+    border: 1px solid #ddd;
+    /* Light gray border */
+    border-radius: 5px;
+    /* Rounded corners for inputs */
+    box-sizing: border-box;
+    /* Include padding in width calculation */
 }
 
 .signup button {
-    width: 100%; /* Full width button */
-    padding: 10px; /* Padding inside button */
-    background-color: #7ba49f; /* Light green background */
-    color: white; /* White text color */
-    border: none; /* No border */
-    border-radius: 5px; /* Rounded corners for button */
-    cursor: pointer; /* Pointer cursor on hover */
-    font-size: 1em; /* Font size */
+    width: 100%;
+    /* Full width button */
+    padding: 10px;
+    /* Padding inside button */
+    background-color: #7ba49f;
+    /* Light green background */
+    color: white;
+    /* White text color */
+    border: none;
+    /* No border */
+    border-radius: 5px;
+    /* Rounded corners for button */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    font-size: 1em;
+    /* Font size */
 }
 
 .signup button:hover {
-    background-color: #1b4b41; /* Dark green on hover */
+    background-color: #1b4b41;
+    /* Dark green on hover */
 }
 
 
-
 /* Login Section */
+
 .login {
     max-width: 400px;
     margin: 40px auto;
@@ -174,7 +211,9 @@ header {
     background-color: #1b4b41;
 }
 
+
 /* Boutons du compte utilisateur */
+
 .account-links .btn {
     background-color: #7ba49f;
     color: #fff;
@@ -191,7 +230,9 @@ header {
     background-color: #1b4b41;
 }
 
+
 /* Section Hero */
+
 .hero {
     position: relative;
     background-image: url('../images/andarduft-Radiance-Cream.jpg');
@@ -199,17 +240,23 @@ header {
     background-position: center;
     height: 600px;
     display: flex;
-    align-items: center; /* Centre verticalement */
-    justify-content: flex-end; /* Aligne le contenu à droite */
-    text-align: right; /* Aligne le texte à droite */
+    align-items: center;
+    /* Centre verticalement */
+    justify-content: flex-end;
+    /* Aligne le contenu à droite */
+    text-align: right;
+    /* Aligne le texte à droite */
     color: white;
-    padding: 0 50px; /* Ajoute un peu d'espace à gauche et à droite */
+    padding: 0 50px;
+    /* Ajoute un peu d'espace à gauche et à droite */
 }
 
 .hero-content {
-    position: relative; /* Nécessaire pour le positionnement absolu du bouton */
+    position: relative;
+    /* Nécessaire pour le positionnement absolu du bouton */
     z-index: 2;
-    margin-right: 20px; /* Ajustez cet espace selon vos besoins */
+    margin-right: 20px;
+    /* Ajustez cet espace selon vos besoins */
 }
 
 .hero::before {
@@ -219,10 +266,10 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.4); /* Un effet de surimpression sombre pour améliorer la lisibilité */
+    background: rgba(0, 0, 0, 0.4);
+    /* Un effet de surimpression sombre pour améliorer la lisibilité */
     z-index: 1;
 }
-
 
 .hero h1 {
     color: #cdd9d8;
@@ -236,26 +283,34 @@ header {
 }
 
 .cta-button {
-    background-color: #7ba49f; /* Couleur du bouton */
+    background-color: #7ba49f;
+    /* Couleur du bouton */
     color: white;
-    padding: 10px 20px; /* Ajustez le padding si nécessaire */
+    padding: 10px 20px;
+    /* Ajustez le padding si nécessaire */
     text-decoration: none;
     border-radius: 15px;
     font-weight: bold;
     font-size: 1.2em;
     transition: background-color 0.3s;
-    position: absolute; /* Rend le bouton positionné par rapport au parent */
-    bottom: -60px; /* Aligne le bouton en bas */
-    right: 290px; /* Aligne le bouton à droite */
-    transform: translateX(50%); /* Centre le bouton horizontalement */
+    position: absolute;
+    /* Rend le bouton positionné par rapport au parent */
+    bottom: -60px;
+    /* Aligne le bouton en bas */
+    right: 290px;
+    /* Aligne le bouton à droite */
+    transform: translateX(50%);
+    /* Centre le bouton horizontalement */
 }
 
 .cta-button:hover {
-    background-color: #1b4b41; /* Couleur du bouton au survol */
+    background-color: #1b4b41;
+    /* Couleur du bouton au survol */
 }
 
 
 /* Team Section */
+
 .team-section {
     padding: 40px 0;
     background-color: #F2F2F2;
@@ -297,13 +352,19 @@ header {
 .philosophy-section,
 .core-values-section,
 .our-commitment {
-    margin: 40px 0; /* 40px d'espace en haut et en bas */
-    padding: 20px; /* Optionnel : ajouter un peu de remplissage interne */
-    background-color: #ffffff; /* Optionnel : changer la couleur de fond pour les sections */
-    border-radius: 8px; /* Optionnel : arrondir les coins */
+    margin: 40px 0;
+    /* 40px d'espace en haut et en bas */
+    padding: 20px;
+    /* Optionnel : ajouter un peu de remplissage interne */
+    background-color: #ffffff;
+    /* Optionnel : changer la couleur de fond pour les sections */
+    border-radius: 8px;
+    /* Optionnel : arrondir les coins */
 }
 
+
 /* Section des produits */
+
 .product-section {
     padding: 40px;
     text-align: center;
@@ -350,13 +411,14 @@ header {
     color: #666;
 }
 
+
 /* Page Détails du produit */
+
 .product-detail {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 40px;
-    
 }
 
 .product-detail-image {
@@ -388,16 +450,19 @@ header {
     cursor: pointer;
     font-size: 1em;
     border-radius: 5px;
-    margin-left : 20px;
+    margin-left: 20px;
     margin-top: 30px;
     transition: background-color 0.3s;
 }
 
 .btn-acheter:hover {
-    background-color: #2a685c;;
+    background-color: #2a685c;
+    ;
 }
 
+
 /* Section des blogs */
+
 .blog-section {
     padding: 40px;
     text-align: center;
@@ -490,142 +555,198 @@ header {
     text-decoration: underline;
 }
 
+.error-section {
+    margin-top: 130px;
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
 
+.error-title {
+    font-size: 8rem;
+    color: #FF6F61;
+    margin: 0;
+}
+
+.error-subtitle {
+    font-size: 2rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+.error-content p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.cta-buttonnes {
+    /* margin-top: 20px; */
+    color: #ffffff;
+    padding: 10px 20px;
+    background-color: #7ba49f;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-buttonnes:hover {
+    background-color: #1b4b41;
+    /* Couleur du bouton au survol */
+}
 
 
 /* Footer */
+
 footer {
     background-color: #7ba49f;
     color: #f8fdfc;
     text-align: center;
     padding: 1rem 0;
     margin-top: 3rem;
+    position: relative;
 }
 
+
 /* Media Queries */
+
 @media (max-width: 1200px) {
     .team-member {
-        width: 30%; /* Augmentez la largeur des membres de l'équipe pour les écrans plus petits */
+        width: 30%;
+        /* Augmentez la largeur des membres de l'équipe pour les écrans plus petits */
     }
-
     .product-card {
-        margin-bottom: 20px; /* Ajoute un espacement en bas des cartes produits */
+        margin-bottom: 20px;
+        /* Ajoute un espacement en bas des cartes produits */
     }
 }
 
 @media (max-width: 992px) {
     .team-member {
-        width: 45%; /* Réduit la largeur des membres de l'équipe sur les écrans moyens */
+        width: 45%;
+        /* Réduit la largeur des membres de l'équipe sur les écrans moyens */
     }
-
     .signup,
     .login {
-        max-width: 90%; /* Largeur maximale pour les formulaires sur les petits écrans */
+        max-width: 90%;
+        /* Largeur maximale pour les formulaires sur les petits écrans */
     }
-
     .hero h1 {
-        font-size: 2.5em; /* Réduit la taille du texte dans la section héros */
+        font-size: 2.5em;
+        /* Réduit la taille du texte dans la section héros */
     }
-
     .hero p {
-        font-size: 1.2em; /* Réduit la taille du texte dans la section héros */
+        font-size: 1.2em;
+        /* Réduit la taille du texte dans la section héros */
     }
-
     .cta-button {
-        bottom: -50px; /* Ajuste la position du bouton */
-        right: 50%; /* Centre le bouton horizontalement */
-        transform: translateX(50%); /* Centre le bouton horizontalement */
+        bottom: -50px;
+        /* Ajuste la position du bouton */
+        right: 50%;
+        /* Centre le bouton horizontalement */
+        transform: translateX(50%);
+        /* Centre le bouton horizontalement */
     }
 }
 
 @media (max-width: 768px) {
     .team-member {
-        width: 100%; /* Chaque membre de l'équipe prend 100% de la largeur */
+        width: 100%;
+        /* Chaque membre de l'équipe prend 100% de la largeur */
     }
-
     .navbar ul {
-        flex-direction: column; /* Change la direction de la navigation en colonne */
-        align-items: center; /* Centre les éléments de la barre de navigation */
+        flex-direction: column;
+        /* Change la direction de la navigation en colonne */
+        align-items: center;
+        /* Centre les éléments de la barre de navigation */
     }
-
     .navbar ul li {
-        margin: 10px 0; /* Espace vertical entre les liens de navigation */
+        margin: 10px 0;
+        /* Espace vertical entre les liens de navigation */
     }
-
     .hero h1 {
-        font-size: 2em; /* Réduit la taille du texte pour les petits écrans */
+        font-size: 2em;
+        /* Réduit la taille du texte pour les petits écrans */
     }
-
     .hero p {
-        font-size: 1em; /* Réduit la taille du texte pour les petits écrans */
+        font-size: 1em;
+        /* Réduit la taille du texte pour les petits écrans */
     }
-
     .cta-button {
-        bottom: -40px; /* Ajuste la position du bouton */
+        bottom: -40px;
+        /* Ajuste la position du bouton */
     }
 }
+
 
 /* Nouvelles media queries pour iPhones et tablettes */
-@media (max-width: 640px) { /* Cible les iPhones en mode portrait */
+
+@media (max-width: 640px) {
+    /* Cible les iPhones en mode portrait */
     .hero {
-        height: 350px; /* Ajuste la hauteur de la section héro */
+        height: 350px;
+        /* Ajuste la hauteur de la section héro */
     }
-
     .hero h1 {
-        font-size: 1.6em; /* Ajuste la taille du texte */
+        font-size: 1.6em;
+        /* Ajuste la taille du texte */
     }
-
     .hero p {
-        font-size: 0.85em; /* Ajuste la taille du texte */
+        font-size: 0.85em;
+        /* Ajuste la taille du texte */
     }
-
     .cta-button {
-        padding: 8px 14px; /* Ajuste le rembourrage */
+        padding: 8px 14px;
+        /* Ajuste le rembourrage */
     }
 }
 
-@media (max-width: 768px) and (orientation: landscape) { /* Cible les tablettes en mode paysage */
+@media (max-width: 768px) and (orientation: landscape) {
+    /* Cible les tablettes en mode paysage */
     .team-member {
-        width: 48%; /* Deux membres de l'équipe par ligne */
+        width: 48%;
+        /* Deux membres de l'équipe par ligne */
     }
-
     .navbar ul {
-        flex-direction: row; /* Garde la navigation en ligne */
-        justify-content: center; /* Centre la navigation */
+        flex-direction: row;
+        /* Garde la navigation en ligne */
+        justify-content: center;
+        /* Centre la navigation */
     }
-
     .hero h1 {
-        font-size: 2.2em; /* Ajuste la taille du texte */
+        font-size: 2.2em;
+        /* Ajuste la taille du texte */
     }
-
     .hero p {
-        font-size: 1em; /* Ajuste la taille du texte */
+        font-size: 1em;
+        /* Ajuste la taille du texte */
     }
 }
 
 @media (max-width: 576px) {
     .signup,
     .login {
-        padding: 15px; /* Réduit le rembourrage pour les petits écrans */
+        padding: 15px;
+        /* Réduit le rembourrage pour les petits écrans */
     }
-
     .hero {
-        height: 400px; /* Réduit la hauteur de la section héro sur les très petits écrans */
+        height: 400px;
+        /* Réduit la hauteur de la section héro sur les très petits écrans */
     }
-
     .hero h1 {
-        font-size: 1.8em; /* Réduit encore plus la taille du texte */
+        font-size: 1.8em;
+        /* Réduit encore plus la taille du texte */
     }
-
     .hero p {
-        font-size: 0.9em; /* Réduit la taille du texte dans la section héro */
+        font-size: 0.9em;
+        /* Réduit la taille du texte dans la section héro */
     }
-
     .cta-button {
-        padding: 8px 16px; /* Réduit le rembourrage du bouton */
+        padding: 8px 16px;
+        /* Réduit le rembourrage du bouton */
     }
-
     .product-card {
-        margin-bottom: 15px; /* Ajoute un espacement en bas des cartes produits */
+        margin-bottom: 15px;
+        /* Ajoute un espacement en bas des cartes produits */
     }
 }
